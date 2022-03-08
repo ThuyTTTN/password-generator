@@ -19,9 +19,7 @@ function writePassword() {
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
 
-
 function generatePassword() {
-  // function things
   var all = "";
 
   // this section builds the possible characters variable (all) based on user input
@@ -51,18 +49,15 @@ function generatePassword() {
     all += symbols;
   }
 
-  console.log(all);
+  // console.log(all);
 
-  var allpw;
-  // if all is "a,b,c,d,e,f,g,h,i,j,1,2,3,4,5,6,7,8,9", all.charAt(math random here)
-  // build the password variable by adding a random character from all for all the number of times in length
+  var allpw = "";
+  
   for (var i = 0; i < length; i++) {
-    allpw += all.charAt(Math.floor(Math.random()) * all.length);
-    
-    // pick a random number from 0 to the length of the all variable
-    // take that character and put it in a password variable
+    allpw += all.charAt(Math.floor(Math.random() * all.length));
+    // console.log(allpw);
   }
-  return allpw; // eventually return the generated password here
+  return allpw;   // return the generated password here
 }
 
 
