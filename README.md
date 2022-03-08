@@ -1,5 +1,8 @@
 # Password Generator Starter Code
 
+## Description
+This challenge was to create an application that can generate random password based on the user's criteria.   
+
 ### Acceptance criteria
 GIVEN I need a new, secure password
 WHEN I click the button to generate a password

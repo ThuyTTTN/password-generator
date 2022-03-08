@@ -45,7 +45,7 @@ function generatePassword() {
   }
 
   // symbols
-  if (window.confirm("Do you want your password to contain symbols?")) {
+  if (window.confirm("Do you want your password to contain special characters?")) {
     all += symbols;
   }
 
